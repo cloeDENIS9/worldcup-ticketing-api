@@ -1,7 +1,7 @@
 {
   "name": "worldcup-ticketing-api",
   "scripts": {
-    "dev": "bun run --hot src/app.ts"
+    "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
     "hono": "^4.12.3"
