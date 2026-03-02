@@ -9,7 +9,7 @@ bun run dev
 ```
 
 open http://localhost:3000
-#membre du groupe
--Cloe DENIS
--Kelly KWETCH
--Mael RAUCH
+## membre du groupe
+- Cloe DENIS
+- Kelly KWETCHE
+- Mael RAUCH
