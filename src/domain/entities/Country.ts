@@ -1,6 +1,6 @@
 export class Country{
 
-    private static readonly paysOk = [{name: "USA", code: "us"}, {name: "Maxico", code: "me"}, {name: "Canada", code: "ca"}]
+    private static readonly paysOk = [{name: "USA", code: "us"}, {name: "Mexico", code: "me"}, {name: "Canada", code: "ca"}]
 
     constructor(
         public readonly name: string,
