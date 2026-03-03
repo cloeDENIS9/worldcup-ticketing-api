@@ -4,7 +4,7 @@ import { Stadium } from "./Stadium";
 import { Team } from "./Team";
 
 export class Match{
-    constructor(
+    constructor( // id homeTeam awayTeam homeScore awayScore homeScoreExtraTime awayScoreExtraTime homeScoreShootOut awayScoreShootOut stadium status stage date
         public readonly id: number,
         public readonly homeTeam: Team,
         public readonly awayTeam: Team,
