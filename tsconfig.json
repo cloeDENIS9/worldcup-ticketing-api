@@ -4,7 +4,13 @@
     "paths": {
       ":@domain/*": [
         "domain/*"
-      ]
+      ],
+      "@infrastructure/*": [
+        "src/infrastructure/*"
+      ],
+      "@application/*": [
+        "src/application/*"
+      ],
     },
     "strict": true,
     "jsx": "react-jsx",

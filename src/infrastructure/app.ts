@@ -1,5 +1,7 @@
 import { Hono } from 'hono'
-import { matchs } from 'mock/matchs';
+import { matchs } from './mock/matchs';
+import homeRouter from './routes/home';
+import matchsRouter from './routes/matchs';
 
 export const app = new Hono();
 
@@ -9,7 +11,7 @@ app.get('/', (c) => {
     message: process.env.API_NAME
   })
 });
-
+/*
 app.get("/matchs", (c) => {
   return c.json(matchs);
 });
@@ -21,5 +23,9 @@ app.get("/matchs/:id", (c) => {
     return c.json({message: "Matchs pas found"})
   }
   return c.json(match);
-});
+});*/
+
+app.route("/matchs", matchsRouter);
+app.route("/", homeRouter)
+
 
