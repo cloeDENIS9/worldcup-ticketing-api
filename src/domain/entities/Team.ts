@@ -7,6 +7,6 @@ import { FifaCode } from ":@domain/value-objets/FifaCode";
 export class Team {
     constructor(
         public readonly name: string,
-        public readonly code: FifaCode
+        public readonly fifaCode: FifaCode
     ) {}
 }

@@ -5,5 +5,6 @@ import { countries } from "./countries";// quand on regarde la classe city on vo
 export const cities: City[] = [
     new City(countries[0], "New York"),
     new City(countries[1], "Mexico City"),
-    new City(countries[2], "Toronto")
+    new City(countries[2], "Toronto"),
+    new City(countries[0], "Miami")
 ]
